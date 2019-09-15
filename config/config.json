@@ -1,0 +1,17 @@
+{
+    "username": "root",
+    "password": "",
+    "database": "login",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "dialect": "mysql",
+    "logging": false,
+    "pool": {
+      "max": 15,
+      "min": 0,
+      "acquire": 300000,
+      "idle": 10000
+    },
+    "portBackend": 3000,
+    "url": "localhost:3000"
+  }

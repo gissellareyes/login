@@ -1,0 +1,26 @@
+{
+  "name": "login_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://projectEnigma@dev.azure.com/projectEnigma/Enigma/_git/login_test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.33.2",
+    "smpt-mail": "^1.0.0"
+  },
+  "portBackend": 3001
+}
